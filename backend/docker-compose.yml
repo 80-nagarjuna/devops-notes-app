@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  notes-api:
+    build: .
+    container_name: notes-api-container
+    ports:
+      - "8000:8000"
